@@ -14,8 +14,8 @@ function App() {
     <>
       {featPupId && (
     <div>
-      <h2>{featuredPup.name}</h2>
-      <ul>
+      <h2 style={{fontWeight: 'bolder'}}>{featuredPup.name}</h2>
+      <ul style={{fontFamily: 'fantasy'}}>
         <li>Age: {featuredPup.age}</li>
         <li>Email: {featuredPup.email}</li>
       </ul>
