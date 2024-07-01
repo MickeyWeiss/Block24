@@ -25,7 +25,6 @@ function App() {
     {
          puppies.map((puppy) => {
           return <p onClick={()=>{setFeatPupId(puppy.id)}} key={puppy.id}>{puppy.name}</p>
-          const featuredPup = puppies.find((pup)=> pup.id === featPupId)
         })
     }
     <p>{featPupId}</p>
